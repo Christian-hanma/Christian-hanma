@@ -2,7 +2,7 @@
 
   <h1>👋 Hola, soy Christian Farias</h1>
   <p><b>Contabilidad · Data Analytics · Desarrollo de Herramientas</b></p>
-  <p><i>"De los datos a las decisiones. De las ideas a las soluciones."</i></p>
+  <p><i>"Datos para entender. Tecnología para construir. Contabilidad para decidir.."</i></p>
 
   <p>📍 Tumbes, Perú &nbsp;·&nbsp; 🎓 10.º Ciclo de Contabilidad (UNT)</p>
 
