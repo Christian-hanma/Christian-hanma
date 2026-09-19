@@ -1,17 +1,28 @@
 <div align="center">
 
-  <h1>Christian Farias</h1>
+  <h1>👋 Hola, soy Christian Farias</h1>
   <p><b>Contabilidad · Data Analytics · Desarrollo de Herramientas</b></p>
   <p><i>"De los datos a las decisiones. De las ideas a las soluciones."</i></p>
 
+  <p>📍 Tumbes, Perú &nbsp;·&nbsp; 🎓 10.º Ciclo de Contabilidad (UNT)</p>
+
   <p>
+    <a href="https://github.com/Christian-hanma"><img src="https://img.shields.io/badge/GitHub-Christian--hanma-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
     <a href="https://portafolio-tau-seven-89.vercel.app/"><img src="https://img.shields.io/badge/Portafolio_Web-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portafolio Web"></a>
     <a href="https://www.linkedin.com/in/christian-jesus-farias-prieto/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="mailto:Christian22fariasprieto@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
     <a href="https://blog-ctrl-contable.vercel.app/"><img src="https://img.shields.io/badge/Blog-Ctrl_Contable-0F766E?style=flat-square&logo=ghost&logoColor=white" alt="Blog Ctrl Contable"></a>
+    <a href="mailto:Christian22fariasprieto@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
   </p>
 
 </div>
+
+---
+
+### 🧭 Navegación rápida
+
+| [💼 Sobre mí](#-sobre-mí) | [📊 Actualmente](#-actualmente) | [🎓 Certificaciones](#-certificaciones--especializaciones) | [🛠️ Stack Técnico](#️-stack-técnico--herramientas) |
+|---|---|---|---|
+| [🚀 Proyectos](#-proyectos-destacados) | [📈 Matriz de Aprendizaje](#-matriz-de-aprendizaje--aplicación-en-data-analytics) | [📉 Estadísticas](#-estadísticas-de-github) | [📫 Contacto](#-contacto--conexión-profesional) |
 
 ---
 
@@ -51,9 +62,25 @@ Mi enfoque principal es transformar información financiera y administrativa en 
       <h4>💡 Tributación & Tecnología</h4>
       <ul>
         <li>📜 <b>Certificado:</b> Domina la IA con Gemini (Google / IA Aplicada)</li>
-        <li>📜 <b>Capacitación:</b> Régimenes Tributarios (GRTPE)</li>
+        <li>📜 <b>Capacitación:</b> Regímenes Tributarios (GRTPE)</li>
         <li>📜 <b>Capacitación:</b> Estrategias para Mejorar la Organización y Productividad</li>
         <li>📜 <b>Encuentro Universitario:</b> Tributario y Aduanero (SUNAT)</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🎓 Formación Académica</h4>
+      <ul>
+        <li>📚 <b>Contabilidad:</b> Universidad Nacional de Tumbes (UNT) — Ciclo 10.º</li>
+        <li>🏛️ <b>Énfasis:</b> Gestión pública, tesorería y tributación aplicada.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💬 Comunidad & Divulgación</h4>
+      <ul>
+        <li>📰 <b>Ctrl Contable:</b> Divulgación técnica en contabilidad, tributación y finanzas.</li>
+        <li>📺 <b>Canales:</b> YouTube, TikTok, Instagram y página de empresa en LinkedIn.</li>
       </ul>
     </td>
   </tr>
@@ -61,9 +88,31 @@ Mi enfoque principal es transformar información financiera y administrativa en 
 
 ---
 
-### 🛠️ Stack Técnico & Herramientas *(En Aprendizaje & Aplicación Práctica)*
+### 🛠️ Stack Técnico & Herramientas
 
 > *Nota: Tecnologías y herramientas que utilizo activamente en proyectos de desarrollo y análisis en proceso de perfeccionamiento continuo.*
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-E38D2C?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI">
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black" alt="Supabase">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase">
+  <img src="https://img.shields.io/badge/Git-181717?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Tkinter-3776AB?style=flat-square&logo=python&logoColor=white" alt="Tkinter">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+</p>
 
 <table>
   <tr>
@@ -121,7 +170,7 @@ Mi enfoque principal es transformar información financiera y administrativa en 
       <p>Centraliza la gestión de clientes (RUC, régimen tributario), controla fechas límite de declaraciones mensuales <b>SUNAT (PDT 621)</b>, calcula ratios financieros automáticos y permite compartir dashboards individuales con cada cliente mediante PIN privado.</p>
       <p><b>Tecnologías:</b> <code>HTML5</code> <code>CSS3</code> <code>JavaScript</code> <code>LocalStorage</code> <code>SUNAT PDT 621</code></p>
       <p>
-        <a href="https://github.com/Christian-hanma/conta-panel">📂 Repositorio</a> | 
+        <a href="https://github.com/Christian-hanma/conta-panel">📂 Repositorio</a> |
         <a href="https://christian-hanma.github.io/conta-panel/panel_control.html">🌐 Demo En Vivo</a>
       </p>
     </td>
@@ -185,10 +234,10 @@ Mi enfoque principal es transformar información financiera y administrativa en 
 
 ### 📉 Estadísticas de GitHub
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=christian-hanma&show_icons=true&theme=dark&hide_border=true&title_color=1fb6a6&icon_color=1fb6a6&bg_color=0d1117" alt="Estadísticas de GitHub" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=christian-hanma&layout=compact&theme=dark&hide_border=true&title_color=1fb6a6&bg_color=0d1117" alt="Lenguajes más usados" width="48%">
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=christian-hanma&show_icons=true&rank_icon=github&hide_border=true&theme=dark&title_color=1fb6a6&icon_color=1fb6a6&bg_color=0d1117" alt="Estadísticas de GitHub" width="48%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=christian-hanma&layout=compact&exclude_repo=Christian-hanma&hide_border=true&theme=dark&title_color=1fb6a6&bg_color=0d1117" alt="Lenguajes más usados" width="48%">
+</p>
 
 ---
 
@@ -197,8 +246,15 @@ Mi enfoque principal es transformar información financiera y administrativa en 
 <div align="center">
   <p>¿Tienes un proyecto, consulta sobre analítica contable o propuesta de colaboración?</p>
   <p>
+    <a href="https://github.com/Christian-hanma"><img src="https://img.shields.io/badge/GitHub-Christian--hanma-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
     <a href="https://portafolio-tau-seven-89.vercel.app/"><img src="https://img.shields.io/badge/Portafolio-tau--seven--89.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portafolio"></a>
     <a href="https://www.linkedin.com/in/christian-jesus-farias-prieto/"><img src="https://img.shields.io/badge/LinkedIn-Christian_Farias-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
     <a href="mailto:Christian22fariasprieto@gmail.com"><img src="https://img.shields.io/badge/Email-Christian22fariasprieto@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   </p>
+</div>
+
+---
+
+<div align="center">
+  <sub>💡 <b>De los datos a las decisiones. De las ideas a las soluciones.</b> — Correo: <code>Christian22fariasprieto@gmail.com</code></sub>
 </div>
