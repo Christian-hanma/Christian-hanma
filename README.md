@@ -79,36 +79,6 @@ Construyo proyectos orientados a problemas concretos:
 
 ---
 
-## 💼 Experiencia & Formación
-
-<table>
-<tr>
-<td width="50%">
-
-### 🏛️ Experiencia
-
-* **Tesorería — Universidad Nacional de Tumbes** · Practicante Pre Profesional (may–ago 2026)
-* **ONPE — Tumbes** · Responsable de Centro de Acopio (may–jun 2026)
-* **Estudio Contable** · Practicante → Asistente Contable (2023)
-  * Registro de operaciones, declaraciones **PDT 621** y libros obligatorios (SUNAT)
-
-</td>
-
-<td width="50%">
-
-### 🎓 Formación & Certificaciones
-
-* **Contabilidad — UNT** · 10.º ciclo
-* **Diplomados:** Gestión Presupuestal y Financiera · Logística y Abastecimiento Público · Gestión de Almacenes e Inventario
-* **SUNAT / GRTPE:** Regímenes Tributarios · Encuentro Tributario y Aduanero
-* **Google:** Domina la IA con Gemini
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🛠️ Tecnologías
 
 ### 📊 Data & Analytics
@@ -241,9 +211,9 @@ Mi objetivo es aprender estas herramientas **aplicándolas a problemas contables
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Christian-hanma&show_icons=true&rank_icon=github&hide_border=true&theme=transparent&title_color=1fb6a6&icon_color=1fb6a6&text_color=8b949e&exclude_repo=Christian-hanma" alt="Estadísticas de GitHub" />
+<img height="170" src="https://github-readme-stats.shion.dev/api?username=Christian-hanma&show_icons=true&rank_icon=github&hide_border=true&theme=dark&title_color=1fb6a6&icon_color=1fb6a6&text_color=c9d1d9&bg_color=0d1117&exclude_repo=Christian-hanma" alt="Estadísticas de GitHub" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Christian-hanma&layout=compact&hide_border=true&theme=transparent&title_color=1fb6a6&text_color=8b949e&exclude_repo=Christian-hanma" alt="Lenguajes más usados" />
+<img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Christian-hanma&layout=compact&hide_border=true&theme=dark&title_color=1fb6a6&text_color=c9d1d9&exclude_repo=Christian-hanma" alt="Lenguajes más usados" />
 
 </div>
 
@@ -251,7 +221,7 @@ Mi objetivo es aprender estas herramientas **aplicándolas a problemas contables
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.demolab.com/?user=Christian-hanma&theme=transparent&hide_border=true&ring=1fb6a6&fire=1fb6a6&currStreakLabel=1fb6a6&currStreakNum=1fb6a6&sideNums=8b949e&sideLabels=8b949e&dates=8b949e" alt="Racha de contribuciones" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Christian-hanma&background=0d1117&hide_border=true&ring=1fb6a6&fire=1fb6a6&currStreakLabel=1fb6a6&currStreakNum=1fb6a6&sideNums=c9d1d9&sideLabels=c9d1d9&dates=c9d1d9" alt="Racha de contribuciones" />
 
 </div>
 
