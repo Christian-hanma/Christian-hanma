@@ -6,7 +6,7 @@
 
 **De los datos a las decisiones. De las ideas a las soluciones.**
 
-📍 Tumbes, Perú · 🎓 Contabilidad — UNT · 10.º ciclo
+📍 Tumbes, Perú · 🎓 Contabilidad — UNTUMBES · 10.º ciclo
 
 <br>
 
@@ -33,7 +33,7 @@
 ## 💻 `$ whoami --profile`
 
 <p align="center">
-  <img src="assets/profile-terminal.svg" width="960" alt="Terminal animado con el perfil técnico de Christian Farias">
+  <img src="assets/profile-terminal.svg" width="960" alt="Terminal animado con el perfil técnico y fotografía de Christian Farias">
 </p>
 
 <br>
@@ -42,7 +42,7 @@
 
 ## 🧭 Sobre mí
 
-Estudio **Contabilidad** y estoy construyendo un perfil que conecta **finanzas, análisis de datos y tecnología**.
+Estudio **Contabilidad en la UNTUMBES** y estoy construyendo un perfil que conecta **finanzas, análisis de datos y tecnología**.
 
 Me interesa convertir información contable y administrativa en **datos útiles, paneles de análisis y herramientas que resuelvan problemas reales**.
 
@@ -94,18 +94,34 @@ Construyo proyectos orientados a problemas concretos:
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>📊 Data, SQL & IA</h3>
+      <h3>📊 Data, Analytics & SQL</h3>
       <ul>
         <li>
           <img src="https://img.shields.io/badge/SQL-En_Curso-1fb6a6?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
           <br>
           <b>Curso de SQL Básico</b>
           <br>
-          <sub><i>Procesamiento de datos, consultas y filtrado (En desarrollo activo)</i></sub>
+          <sub><i>Consultas, agregaciones y tratamiento de bases de datos (En desarrollo activo)</i></sub>
         </li>
         <br>
         <li>
-          <img src="https://img.shields.io/badge/Google-Certificado-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini" />
+          <img src="https://img.shields.io/badge/Excel-Intermedio_--_Avanzado-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel Avanzado" />
+          <br>
+          <b>Excel de Intermedio a Avanzado</b>
+          <br>
+          <sub><i>Certificado de finalización · Modelado de datos y Power Query (Septiembre 2026)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Santander-Excel_Open_Academy-EC0000?style=flat-square&logo=santander&logoColor=white" alt="Santander Excel" />
+          <br>
+          <b>Certificado de Excel — Santander Open Academy</b>
+          <br>
+          <sub><i>Santander Open Academy · Análisis de datos y herramientas financieras (Septiembre 2026)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Google-IA_con_Gemini-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini" />
           <br>
           <b>Domina la IA con Gemini</b>
           <br>
