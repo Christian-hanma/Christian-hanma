@@ -30,6 +30,16 @@
 
 ---
 
+## 💻 `$ whoami --profile`
+
+<p align="center">
+  <img src="assets/profile-terminal.svg" width="960" alt="Terminal animado con el perfil técnico de Christian Farias">
+</p>
+
+<br>
+
+---
+
 ## 🧭 Sobre mí
 
 Estudio **Contabilidad** y estoy construyendo un perfil que conecta **finanzas, análisis de datos y tecnología**.
@@ -79,6 +89,105 @@ Construyo proyectos orientados a problemas concretos:
 
 ---
 
+## 🎓 Certificaciones & Formación Especializada
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📊 Data, SQL & IA</h3>
+      <ul>
+        <li>
+          <img src="https://img.shields.io/badge/SQL-En_Curso-1fb6a6?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+          <br>
+          <b>Curso de SQL Básico</b>
+          <br>
+          <sub><i>Procesamiento de datos, consultas y filtrado (En desarrollo activo)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Google-Certificado-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini" />
+          <br>
+          <b>Domina la IA con Gemini</b>
+          <br>
+          <sub><i>Google · Productividad e Inteligencia Artificial Aplicada (Agosto 2026)</i></sub>
+        </li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏛️ Gestión Pública & Finanzas Estatal</h3>
+      <ul>
+        <li>
+          <img src="https://img.shields.io/badge/Diplomado-Obtenido-0d1117?style=flat-square&logo=academia&logoColor=1fb6a6" alt="Diplomado" />
+          <br>
+          <b>Gestión Presupuestal y Financiera en el Sector Público</b>
+          <br>
+          <sub><i>Presupuestos, SIAF y administración de fondos estatales (Abril 2026)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Diplomado-Obtenido-0d1117?style=flat-square&logo=academia&logoColor=1fb6a6" alt="Diplomado" />
+          <br>
+          <b>Logística y Abastecimiento Público</b>
+          <br>
+          <sub><i>Cadena de suministro y contrataciones del Estado (Julio 2025)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Diplomado-Obtenido-0d1117?style=flat-square&logo=academia&logoColor=1fb6a6" alt="Diplomado" />
+          <br>
+          <b>Gestión de Almacenes e Inventario</b>
+          <br>
+          <sub><i>Control patrimonial y registros de inventario (Enero 2026)</i></sub>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏛️ Normativa & Atención al Ciudadano</h3>
+      <ul>
+        <li>
+          <img src="https://img.shields.io/badge/Diplomado-Obtenido-0d1117?style=flat-square&logo=academia&logoColor=1fb6a6" alt="Diplomado" />
+          <br>
+          <b>Calidad del Servicio y Atención al Ciudadano</b>
+          <br>
+          <sub><i>Gestión pública y procesos administrativos orientados al usuario (Julio 2026)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/Diplomado-Obtenido-0d1117?style=flat-square&logo=academia&logoColor=1fb6a6" alt="Diplomado" />
+          <br>
+          <b>Delitos contra la Administración Pública y Corrupción</b>
+          <br>
+          <sub><i>Marco legal, integridad y transparencia pública (Octubre 2025)</i></sub>
+        </li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💼 Tributación & Comercio</h3>
+      <ul>
+        <li>
+          <img src="https://img.shields.io/badge/Capacitaci%C3%B3n-GRTPE-1fb6a6?style=flat-square" alt="GRTPE" />
+          <br>
+          <b>Regímenes Tributarios</b>
+          <br>
+          <sub><i>Gerencia Regional de Trabajo y Promoción del Empleo (Junio 2026)</i></sub>
+        </li>
+        <br>
+        <li>
+          <img src="https://img.shields.io/badge/SUNAT-Encuentro_Universitario-D14836?style=flat-square" alt="SUNAT" />
+          <br>
+          <b>Encuentro Universitario Tributario y Aduanero</b>
+          <br>
+          <sub><i>SUNAT · Normativa fiscal y aduanera (Diciembre 2020)</i></sub>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🛠️ Tecnologías
 
 ### 📊 Data & Analytics
@@ -108,7 +217,7 @@ Construyo proyectos orientados a problemas concretos:
 <img src="https://img.shields.io/badge/SQLite-0d1117?style=flat-square&logo=sqlite&logoColor=1fb6a6" alt="SQLite" />
 <img src="https://img.shields.io/badge/Supabase-0d1117?style=flat-square&logo=supabase&logoColor=1fb6a6" alt="Supabase" />
 <img src="https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=1fb6a6" alt="Firebase" />
-<img src="https://img.shields.io/badge/Vercel-0d1117?style=flat-square&logo=vercel&logoColor=1fb6a6" alt="Vercel" />
+<img src="https://img.shields.io/badge/Vercel-0d1117?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
 ### 🔧 Herramientas
@@ -195,7 +304,7 @@ Data Analytics
 │
 ├── 01 · Fundamentos de datos
 ├── 02 · Excel & Power Query
-├── 03 · SQL
+├── 03 · SQL (Curso básico en progreso)
 ├── 04 · Python & pandas
 ├── 05 · Limpieza & ETL
 ├── 06 · EDA

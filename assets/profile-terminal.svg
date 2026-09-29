@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" role="img" aria-labelledby="title desc">
+  <title id="title">Christian Farias — Profile Shell</title>
+  <desc id="desc">Terminal interactivo con la información del perfil y stack de Christian Farias.</desc>
+  
+  <style>
+    .key { fill: #1fb6a6; font-weight: 600; }
+    .val { fill: #a5d6ff; }
+    .val-highlight { fill: #7ee787; font-weight: 600; }
+    .val-orange { fill: #ffa657; }
+    .num { fill: #484f58; }
+    .text-muted { fill: #8b949e; }
+    .font-mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 13.5px; }
+
+    /* Animation for Visual Map cycling */
+    @keyframes slideCycle1 {
+      0%, 22% { opacity: 1; transform: scale(1); }
+      25%, 97% { opacity: 0; transform: scale(0.95); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+    @keyframes slideCycle2 {
+      0%, 22% { opacity: 0; transform: scale(0.95); }
+      25%, 47% { opacity: 1; transform: scale(1); }
+      50%, 100% { opacity: 0; transform: scale(0.95); }
+    }
+    @keyframes slideCycle3 {
+      0%, 47% { opacity: 0; transform: scale(0.95); }
+      50%, 72% { opacity: 1; transform: scale(1); }
+      75%, 100% { opacity: 0; transform: scale(0.95); }
+    }
+    @keyframes slideCycle4 {
+      0%, 72% { opacity: 0; transform: scale(0.95); }
+      75%, 97% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(0.95); }
+    }
+
+    .slide-1 { animation: slideCycle1 16s infinite ease-in-out; transform-origin: 180px 220px; }
+    .slide-2 { animation: slideCycle2 16s infinite ease-in-out; transform-origin: 180px 220px; }
+    .slide-3 { animation: slideCycle3 16s infinite ease-in-out; transform-origin: 180px 220px; }
+    .slide-4 { animation: slideCycle4 16s infinite ease-in-out; transform-origin: 180px 220px; }
+
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    .glow-border { animation: pulseGlow 4s infinite ease-in-out; }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor { animation: blink 1s infinite; fill: #1fb6a6; }
+  </style>
+
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Window Container -->
+  <rect width="960" height="440" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Window Header Bar -->
+  <path d="M0 14C0 6.26801 6.26801 0 14 0H946C953.732 0 960 6.26801 960 14V38H0V14Z" fill="#161b22" stroke="#30363d" stroke-width="1.5" />
+  
+  <!-- Mac Window Control Buttons -->
+  <circle cx="24" cy="19" r="6" fill="#ff5f56" />
+  <circle cx="44" cy="19" r="6" fill="#ffbd2e" />
+  <circle cx="64" cy="19" r="6" fill="#27c93f" />
+
+  <!-- Header Title -->
+  <text x="480" y="24" text-anchor="middle" class="font-mono text-muted" font-size="13">vim profile.yml</text>
+  
+  <!-- Badge @christian-hanma -->
+  <rect x="830" y="10" width="110" height="18" rx="9" fill="#21262d" stroke="#30363d" />
+  <text x="885" y="23" text-anchor="middle" class="font-mono text-muted" font-size="11">@christian-hanma</text>
+
+  <!-- MAIN CONTENT AREA -->
+
+  <!-- LEFT PANE: VISUAL.MAP -->
+  <g transform="translate(20, 52)">
+    <rect width="320" height="366" rx="8" fill="#0d1117" stroke="#1fb6a6" stroke-opacity="0.5" stroke-width="1.2" class="glow-border" />
+    
+    <!-- Pane Header -->
+    <text x="16" y="24" class="font-mono" fill="#1fb6a6" font-size="11" font-weight="700" letter-spacing="1">VISUAL.MAP</text>
+    <text x="304" y="24" text-anchor="end" class="font-mono text-muted" font-size="10">300x340 / DATA-BIT</text>
+    <line x1="16" y1="34" x2="304" y2="34" stroke="#21262d" stroke-width="1" />
+
+    <!-- Outer Frame Corner Indicators -->
+    <path d="M 24 50 L 34 50 L 34 60" fill="none" stroke="#484f58" stroke-width="1" />
+    <path d="M 296 50 L 286 50 L 286 60" fill="none" stroke="#484f58" stroke-width="1" />
+    <path d="M 24 340 L 34 340 L 34 330" fill="none" stroke="#484f58" stroke-width="1" />
+    <path d="M 296 340 L 286 340 L 286 330" fill="none" stroke="#484f58" stroke-width="1" />
+
+    <!-- ANIMATED GRAPHICS INSIDE VISUAL.MAP -->
+    
+    <!-- SLIDE 1: DATA ANALYTICS / SQL NODES -->
+    <g class="slide-1">
+      <circle cx="160" cy="180" r="70" fill="none" stroke="#1fb6a6" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6" />
+      <circle cx="160" cy="180" r="45" fill="none" stroke="#a5d6ff" stroke-width="1" opacity="0.4" />
+      <circle cx="160" cy="180" r="14" fill="#1fb6a6" filter="url(#glow)" />
+      <text x="160" y="184" text-anchor="middle" class="font-mono" fill="#0d1117" font-size="10" font-weight="800">DATA</text>
+      
+      <line x1="160" y1="180" x2="110" y2="130" stroke="#1fb6a6" stroke-width="1.2" opacity="0.7" />
+      <circle cx="110" cy="130" r="18" fill="#161b22" stroke="#1fb6a6" stroke-width="1.5" />
+      <text x="110" y="134" text-anchor="middle" class="font-mono" fill="#a5d6ff" font-size="9" font-weight="700">SQL</text>
+
+      <line x1="160" y1="180" x2="210" y2="130" stroke="#1fb6a6" stroke-width="1.2" opacity="0.7" />
+      <circle cx="210" cy="130" r="18" fill="#161b22" stroke="#7ee787" stroke-width="1.5" />
+      <text x="210" y="134" text-anchor="middle" class="font-mono" fill="#7ee787" font-size="9" font-weight="700">PBI</text>
+
+      <line x1="160" y1="180" x2="110" y2="230" stroke="#1fb6a6" stroke-width="1.2" opacity="0.7" />
+      <circle cx="110" cy="230" r="18" fill="#161b22" stroke="#ffa657" stroke-width="1.5" />
+      <text x="110" y="234" text-anchor="middle" class="font-mono" fill="#ffa657" font-size="8" font-weight="700">PY</text>
+
+      <line x1="160" y1="180" x2="210" y2="230" stroke="#1fb6a6" stroke-width="1.2" opacity="0.7" />
+      <circle cx="210" cy="230" r="18" fill="#161b22" stroke="#d2a8ff" stroke-width="1.5" />
+      <text x="210" y="234" text-anchor="middle" class="font-mono" fill="#d2a8ff" font-size="8" font-weight="700">XLS</text>
+
+      <text x="160" y="295" text-anchor="middle" class="font-mono" fill="#1fb6a6" font-size="12" font-weight="600">ANALYTICS NETWORK</text>
+    </g>
+
+    <!-- SLIDE 2: FINANCIAL DASHBOARD / ACCOUNTING BALANCE -->
+    <g class="slide-2">
+      <rect x="75" y="130" width="22" height="90" rx="3" fill="#161b22" stroke="#1fb6a6" stroke-width="1.2" />
+      <rect x="77" y="160" width="18" height="58" rx="2" fill="#1fb6a6" opacity="0.8" />
+      
+      <rect x="115" y="110" width="22" height="110" rx="3" fill="#161b22" stroke="#7ee787" stroke-width="1.2" />
+      <rect x="117" y="130" width="18" height="88" rx="2" fill="#7ee787" opacity="0.8" />
+
+      <rect x="155" y="150" width="22" height="70" rx="3" fill="#161b22" stroke="#ffa657" stroke-width="1.2" />
+      <rect x="157" y="175" width="18" height="43" rx="2" fill="#ffa657" opacity="0.8" />
+
+      <rect x="195" y="90" width="22" height="130" rx="3" fill="#161b22" stroke="#a5d6ff" stroke-width="1.2" />
+      <rect x="197" y="105" width="18" height="113" rx="2" fill="#a5d6ff" opacity="0.8" />
+
+      <rect x="235" y="120" width="22" height="100" rx="3" fill="#161b22" stroke="#d2a8ff" stroke-width="1.2" />
+      <rect x="237" y="140" width="18" height="78" rx="2" fill="#d2a8ff" opacity="0.8" />
+
+      <line x1="60" y1="222" x2="265" y2="222" stroke="#484f58" stroke-width="1.5" />
+      <path d="M 75 150 L 115 120 L 155 165 L 195 95 L 235 130" fill="none" stroke="#7ee787" stroke-width="2" filter="url(#glow)" />
+      
+      <text x="160" y="265" text-anchor="middle" class="font-mono" fill="#7ee787" font-size="12" font-weight="600">FINANCIAL DASHBOARD</text>
+      <text x="160" y="285" text-anchor="middle" class="font-mono text-muted" font-size="10">PDT 621 · RATIOS · BALANCES</text>
+    </g>
+
+    <!-- SLIDE 3: PYTHON & AUTOMATION HEXAGON -->
+    <g class="slide-3">
+      <polygon points="160,110 220,145 220,215 160,250 100,215 100,145" fill="#161b22" stroke="#1fb6a6" stroke-width="2" filter="url(#glow)" />
+      <path d="M160,135 L190,152 L190,188 L160,205 L130,188 L130,152 Z" fill="none" stroke="#ffa657" stroke-width="1.5" />
+      <circle cx="150" cy="160" r="5" fill="#a5d6ff" />
+      <circle cx="170" cy="180" r="5" fill="#ffa657" />
+
+      <text x="160" y="285" text-anchor="middle" class="font-mono" fill="#ffa657" font-size="12" font-weight="600">PYTHON AUTOMATION</text>
+      <text x="160" y="303" text-anchor="middle" class="font-mono text-muted" font-size="10">ETL · SCRIPTS · TKINTER</text>
+    </g>
+
+    <!-- SLIDE 4: TECH & DEVELOPMENT ENGINE -->
+    <g class="slide-4">
+      <circle cx="160" cy="175" r="55" fill="none" stroke="#30363d" stroke-width="2" />
+      <circle cx="160" cy="175" r="55" fill="none" stroke="#1fb6a6" stroke-width="2.5" stroke-dasharray="80 120" />
+      <text x="160" y="184" text-anchor="middle" class="font-mono" fill="#1fb6a6" font-size="24" font-weight="800">&lt; / &gt;</text>
+
+      <text x="160" y="275" text-anchor="middle" class="font-mono" fill="#a5d6ff" font-size="12" font-weight="600">TECH &amp; DEVELOPMENT</text>
+      <text x="160" y="295" text-anchor="middle" class="font-mono text-muted" font-size="10">GIT · SQL · NEXT.JS</text>
+    </g>
+
+    <!-- Footer of Left Pane -->
+    <text x="16" y="352" class="font-mono text-muted" font-size="10">STATUS: RUNNING</text>
+    <circle cx="295" cy="348" r="4" fill="#1fb6a6" class="cursor" />
+  </g>
+
+  <!-- RIGHT PANE: profile.yml [YAML] -->
+  <g transform="translate(360, 52)">
+    <rect width="580" height="366" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1.2" />
+
+    <!-- Pane Header -->
+    <text x="16" y="24" class="font-mono" fill="#a5d6ff" font-size="12" font-weight="700">profile.yml <tspan fill="#484f58">[YAML]</tspan></text>
+    <rect x="490" y="10" width="75" height="18" rx="4" fill="#21262d" />
+    <text x="527" y="23" text-anchor="middle" class="font-mono text-muted" font-size="10">@christian</text>
+    <line x1="16" y1="34" x2="564" y2="34" stroke="#21262d" stroke-width="1" />
+
+    <!-- YAML Code Lines -->
+    <g class="font-mono" transform="translate(16, 56)">
+      <text x="0" y="0" class="num"> 1</text>
+      <text x="28" y="0" class="key">profile:</text>
+
+      <text x="0" y="19" class="num"> 2</text>
+      <text x="48" y="19" class="key">subject:</text>
+      <text x="135" y="19" class="val-highlight">Christian Farias</text>
+
+      <text x="0" y="38" class="num"> 3</text>
+      <text x="48" y="38" class="key">role:</text>
+      <text x="135" y="38" class="val">Contabilidad &amp; Data Analytics</text>
+
+      <text x="0" y="57" class="num"> 4</text>
+      <text x="48" y="57" class="key">origin:</text>
+      <text x="135" y="57" class="val">Tumbes, Perú 🇵🇪</text>
+
+      <text x="0" y="76" class="num"> 5</text>
+      <text x="48" y="76" class="key">focus:</text>
+      <text x="135" y="76" class="val">Financial Data · BI · Automation</text>
+
+      <text x="0" y="95" class="num"> 6</text>
+      <text x="48" y="95" class="key">status:</text>
+      <text x="135" y="95" class="val-orange">Contabilidad UNT (10.º Ciclo) · Active Learner</text>
+
+      <text x="0" y="114" class="num"> 7</text>
+      <text x="48" y="114" class="key">motto:</text>
+      <text x="135" y="114" class="val">"De los datos a las decisiones."</text>
+
+      <text x="0" y="133" class="num"> 8</text>
+      <text x="28" y="133" class="key">stack:</text>
+
+      <text x="0" y="152" class="num"> 9</text>
+      <text x="48" y="152" class="key">analytics:</text>
+      <text x="145" y="152" class="val">SQL · Python (pandas) · Power BI · Excel</text>
+
+      <text x="0" y="171" class="num">10</text>
+      <text x="48" y="171" class="key">development:</text>
+      <text x="145" y="171" class="val">Python (Tkinter) · JS/TS · Next.js · HTML/CSS</text>
+
+      <text x="0" y="190" class="num">11</text>
+      <text x="48" y="190" class="key">databases:</text>
+      <text x="145" y="190" class="val">PostgreSQL · SQLite · Supabase · Firebase</text>
+
+      <text x="0" y="209" class="num">12</text>
+      <text x="48" y="209" class="key">tools:</text>
+      <text x="145" y="209" class="val">Git · GitHub · Obsidian · VS Code</text>
+
+      <text x="0" y="228" class="num">13</text>
+      <text x="28" y="228" class="key">contact:</text>
+
+      <text x="0" y="247" class="num">14</text>
+      <text x="48" y="247" class="key">portfolio:</text>
+      <text x="145" y="247" class="val-highlight">portafolio-tau-seven-89.vercel.app</text>
+
+      <text x="0" y="266" class="num">15</text>
+      <text x="48" y="266" class="key">linkedin:</text>
+      <text x="145" y="266" class="val">/in/christian-jesus-farias-prieto</text>
+
+      <text x="0" y="285" class="num">16</text>
+      <text x="48" y="285" class="key">email:</text>
+      <text x="145" y="285" class="val">Christian22fariasprieto@gmail.com</text>
+
+      <text x="0" y="304" class="num">17</text>
+      <text x="48" y="304" class="key">blog:</text>
+      <text x="145" y="304" class="val">blog-ctrl-contable.vercel.app</text>
+    </g>
+
+    <!-- Bottom Vim Status Bar -->
+    <g transform="translate(0, 342)">
+      <rect width="580" height="24" rx="0" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <rect x="10" y="3" width="60" height="18" rx="3" fill="#1fb6a6" />
+      <text x="40" y="16" text-anchor="middle" class="font-mono" fill="#0d1117" font-size="10" font-weight="800">NORMAL</text>
+      <text x="80" y="16" class="font-mono" fill="#c9d1d9" font-size="11" font-weight="600">profile.yml</text>
+      <text x="420" y="16" class="font-mono text-muted" font-size="11">[utf-8]</text>
+      <text x="568" y="16" text-anchor="end" class="font-mono text-muted" font-size="11">17L, 512B 100% 17:1</text>
+    </g>
+  </g>
+
+</svg>
